@@ -24,7 +24,7 @@
 
 .researchWrapper {
     width: 100vw;
-    padding: 2% 5% 5%;
+    padding: 2% 7% 5%;
     box-sizing: border-box;
 }
 
@@ -82,9 +82,11 @@
     .researchText {
     padding: 0;
     width: 100%;
+    font-size: 1em;
 }
 
     .researchText h3 {
     padding: 4% 0;
+    margin-block-end: 0;
 }
 }

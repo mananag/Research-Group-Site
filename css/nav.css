@@ -74,6 +74,7 @@ body{
     .navElements{
         padding: 9.925px;
         margin: 0;
+        opacity: 0;
     }
     .ham{
         display: block;
