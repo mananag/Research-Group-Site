@@ -9,6 +9,10 @@
     overflow: hidden;
 }
 
+.carouselElement img{
+    width: 100%;
+}
+
 .carouselTextContainer {
     position: absolute;
     color: white;
@@ -187,7 +191,7 @@
 }
 
 .blogtitle:hover {
-    background-color: rgb(44 44 44 / 86%);
+    background-color: rgb(44 44 44 / 10%);
 }
 
 .blogtitletitle {
@@ -318,8 +322,6 @@
 
         padding: 2% 8%;
 
-        overflow: scroll;
-
         height: 33vh;
 
         box-sizing: border-box;
@@ -327,6 +329,12 @@
         padding-bottom: 5%;
 
         background: #F3F3F3;
+
+    }
+
+    .newsWrapper{
+        overflow: scroll;
+        height: 20vh;
 
     }
 
@@ -418,9 +426,11 @@
 
     }
 
-    .carouselTextContainer{
-        width: auto;
-        top: 50%;
+    .carouselTextContainer {
+
+        width: auto;
+
+        top: 50%;
     }
 
     .carouselTextContainer p {
