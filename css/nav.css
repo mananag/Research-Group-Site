@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    font-family: OpenSans, serif;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.navContainer{
+    display: flex;
+    padding: 1.5% 3% 2%;
+    font-size: 1.1em;
+    align-items: baseline;
+    font-family: OpenSans;
+}
+
+.logo{
+    margin-right: auto;
+    font-family: Pacifico, serif;
+    font-size: 1.5em;
+}
+
+.navElements{
+    padding: 0 2%;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.navElements:hover{
+    transform: scale(1.1);
+}
+
+.selected{
+    font-family: 'OpenSans-Bold', serif;
+}
+
+.contactElement{
+    margin-left: auto;
+}
