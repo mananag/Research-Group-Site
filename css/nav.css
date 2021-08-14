@@ -35,3 +35,37 @@ body{
 .contactElement{
     margin-left: auto;
 }
+
+.ham {
+    cursor: pointer;
+    width: 35px;
+    margin: 2vh 1vw;
+    display: none;
+    /* transform: translateY(-100px); */
+}
+
+.ham-line {
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    margin: 4px 0;
+    transition: 0.3s;
+    border-radius: 2px;
+}
+.ham-line:nth-of-type(2) {
+    position: relative;
+    left: -10%;
+}
+
+@media all and (max-width: 600px){
+    .navContainer{
+        align-items: center;
+        padding: 3% 3% 3% 5%;
+    }
+    .navElements{
+        display: none;
+    }
+    .ham{
+        display: block;
+    }
+}
