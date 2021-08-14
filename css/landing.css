@@ -241,7 +241,7 @@
 .section-heading {
     position: relative;
     letter-spacing: 3px;
-    left: 6vw;
+    padding-left: 6vw;
     height: 29px;
     width: auto;
     font-size: 36px;
