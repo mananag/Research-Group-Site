@@ -11,13 +11,18 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </head>
 <body>
 <nav class="navContainer">
     <div class="logo" onclick="location='./'"">
-        Research Group
+        MC Research Group
     </div>
-    <div class="navElements selected" onclick="location='./'">
+    <div class="navElements selected" onclick="locatio  n='./'">
         Home
     </div>
     <div class="navElements" onclick="location='./research.html'">
@@ -179,14 +184,13 @@
                     <i>August 12, 2021</i>
                 </div>
             </div>
-
         </div>
     </div>
     <div class="inner-wrapper" id="blog-wrapper">
         <h1 class="ml44 section-heading" style="color: black; opacity: 1;">
                     <span class="text-wrapper">
                         <span class="line line1" style="opacity: 1; transform: translateX(132.912px);"></span>
-                        <span class="letters"><span class="letter" style="opacity: 1;">B</span><span class="letter" style="opacity: 1;">l</span><span class="letter" style="opacity: 1;">o</span><span class="letter" style="opacity: 1;">g</span><span class="letter" style="opacity: 1;">s</span></span>
+                        <span class="letters">Research</span>
                     </span>
         </h1>
         <div class="show-all-container">
@@ -248,10 +252,132 @@
                     <div class="blogby">by ABC</div>
                 </div>
             </div>
-
+        </div>
+    </div>
+    <div class="bodyContainer" style="margin-top: 0"></div>
+    <div class="bodyContainer">
+        <div class="aboutContainer" style="width: 100%; padding-right: 0">
+            <h1>
+                Collaborators
+            </h1>
+            <div class="collaborators">
+                <div class="collaborator">
+                    <img src="./assets/img/collaborators/NUS.jpg" alt="">
+                </div>
+                <div class="collaborator">
+                    <img src="./assets/img/collaborators/NTU.png" alt="">
+                </div>
+                <div class="collaborator">
+                    <img src="./assets/img/collaborators/UIUC.png" alt="">
+                </div>
+                <div class="collaborator">
+                    <img src="./assets/img/collaborators/UIC.png" alt="">
+                </div>
+                <div class="collaborator">
+                    <img src="./assets/img/collaborators/carleton.png" alt="">
+                </div>
+                <div class="collaborator">
+                    <img src="./assets/img/collaborators/iiithyd.png" alt="">
+                </div>
+                <div class="collaborator" style="background: black;">
+                    <img src="./assets/img/collaborators/scripps.jpg" alt="">
+                </div>
+                <div class="collaborator">
+                    <img src="./assets/img/collaborators/Qatar_University_(logo).png" alt="">
+                </div>
+                <div class="collaborator">
+                    <img src="./assets/img/collaborators/IBM.svg" alt="">
+                </div>
+                <div class="collaborator">
+                    <img src="./assets/img/collaborators/Nvidia-logo.jpg" alt="">
+                </div>
+                <div class="collaborator" style="background: #961300;">
+                    <img src="./assets/img/collaborators/SICI.png" alt="">
+                </div>
+                <div class="collaborator">
+                    <img src="./assets/img/collaborators/Central_Electronics_Engineering_Research_Institute_Logo.png" alt="">
+                </div>
+            </div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="collaborator">
+                            <img src="./assets/img/collaborators/NUS.jpg" alt="">
+                        </div>
+                        <div class="collaborator">
+                            <img src="./assets/img/collaborators/NTU.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="collaborator">
+                            <img src="./assets/img/collaborators/UIUC.png" alt="">
+                        </div>
+                        <div class="collaborator">
+                            <img src="./assets/img/collaborators/UIC.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="collaborator">
+                            <img src="./assets/img/collaborators/carleton.png" alt="">
+                        </div>
+                        <div class="collaborator">
+                            <img src="./assets/img/collaborators/iiithyd.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="collaborator" style="background: black;">
+                            <img src="./assets/img/collaborators/scripps.jpg" alt="">
+                        </div>
+                        <div class="collaborator">
+                            <img src="./assets/img/collaborators/Qatar_University_(logo).png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="collaborator">
+                            <img src="./assets/img/collaborators/IBM.svg" alt="">
+                        </div>
+                        <div class="collaborator">
+                            <img src="./assets/img/collaborators/Nvidia-logo.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="collaborator" style="background: #961300;">
+                            <img src="./assets/img/collaborators/SICI.png" alt="">
+                        </div>
+                        <div class="collaborator">
+                            <img src="./assets/img/collaborators/Central_Electronics_Engineering_Research_Institute_Logo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-scrollbar"></div>
+            </div>
         </div>
     </div>
 </div>
 </body>
 <script src="js/index.js"></script>
+<script>
+    const swiper = new Swiper('.swiper-container', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+            el: '.swiper-scrollbar',
+            draggable: true
+        },
+    });
+</script>
 </html>

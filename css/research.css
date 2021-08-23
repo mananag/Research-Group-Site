@@ -1,4 +1,4 @@
-.header{
+.header {
     background-image: url("../assets/img/researchBack.png");
     height: 44vh;
     background-size: contain;
@@ -49,7 +49,7 @@
 
 .researchText {
     width: 50%;
-    padding: 0 0% 0 8%;
+    padding: 0 0 0 8%;
     line-height: 2;
     font-size: 1.2em;
     font-family: 'Poppins';
@@ -64,29 +64,35 @@
     color: #212121;
 }
 
-@media all and (max-width: 600px){
-    .researchContainer {width: 100%;flex-wrap: wrap;}
+@media all and (max-width: 600px) {
+    .researchContainer {
+        width: 100%;
+        flex-wrap: wrap;
+    }
 
-    .researchWrapper {}
+    .researchWrapper {
+    }
 
-    .researchContainer img {}
+    .researchContainer img {
+    }
 
-    .researchContainer img:hover {}
+    .researchContainer img:hover {
+    }
 
     .researchImageContainer {
-    width: 100%;
-    height: 30vh;
-    margin: 0 0 2%;
-}
+        width: 100%;
+        height: 30vh;
+        margin: 0 0 2%;
+    }
 
     .researchText {
-    padding: 0;
-    width: 100%;
-    font-size: 1em;
-}
+        padding: 0;
+        width: 100%;
+        font-size: 1em;
+    }
 
     .researchText h3 {
-    padding: 4% 0;
-    margin-block-end: 0;
-}
+        padding: 4% 0;
+        margin-block-end: 0;
+    }
 }
