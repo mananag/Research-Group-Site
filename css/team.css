@@ -1,0 +1,18 @@
+.header {
+    background-image: url("../assets/img/teamBack.jpg");
+    height: 44vh;
+    background-size: cover;
+    background-color: #ff9800;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #bf360c;
+    font-family: 'OpenSans-Bold';
+    font-size: 4em;
+    background-attachment: fixed;
+    border-top: 1px black solid;
+}
+
