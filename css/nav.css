@@ -5,11 +5,15 @@ body{
     overflow-x: hidden;
 }
 .navContainer{
+    position: sticky;
+    background: white;
+    top: 0;
     display: flex;
     padding: 1% 3% 1.5%;
     font-size: 1.1em;
     align-items: baseline;
     font-family: OpenSans;
+    z-index: 10000000;
 }
 
 .logo{
