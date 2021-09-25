@@ -2,17 +2,142 @@
     background-image: url("../assets/img/teamBack.jpg");
     height: 44vh;
     background-size: cover;
-    background-color: #ff9800;
+    background-color: #9e9e9e;
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #bf360c;
-    font-family: 'OpenSans-Bold';
-    font-size: 4em;
+    color: #eeeeee;
+    font-family: 'Poppins-SemiBold', serif;
+    font-size: 3.5em;
+    letter-spacing: 3.5px;
     background-attachment: fixed;
-    border-top: 1px black solid;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+:root {
+    --font3: 'Roboto', sans-serif;
+}
+
+.h1,
+h1 {
+    font-size: 1.5rem;
+}
+
+.container-fluid {
+    max-width: 1400px;
+}
+
+.card {
+    padding: 5%;
+    width: 20vw;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    border: 1;
+    border-radius: 1rem;
+}
+
+.img-hover-zoom--colorize img {
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+    padding: 1px;
+    transition: transform .5s;
+    filter: grayscale(100%);
+}
+
+.img-hover-zoom--colorize:hover img {
+    filter: grayscale(0);
+    transform: scale(1.05);
+}
+
+.card h5 {
+    overflow: hidden;
+    height: 80px;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.card h5 a {
+    color: black;
+    text-decoration: none;
+}
+
+.role {
+    color: #7a7a7a;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fab {
+    font-size: 1.5rem;
+    color: darkgray;
+    transition: transform .5s;
+}
+
+.fab:hover {
+    color: black;
+    transform: scale(1.1);
+}
+
+
+.groupHeading {
+    font-family: 'Poppins-SemiBold';
+    font-size: 2em;
+    padding: 2% 5% 1%;
+}
+
+.groupHeading:after{
+    content: '';
+    width: 55px;
+    display: block;
+    height: 4px;
+    background: #0d47a1;
+    border-radius: 2px;
+}
+
+.card h2 {
+    font-size: 1rem;
+}
+
+.cardsContainer {
+padding: 2% 5%;
+display: flex;
+flex-wrap: wrap;
+}
+
+.col {
+
+    /* width: 32vw; */
+
+    /* padding: 5%; */
+}
+
+/* MEDIA */
+
+@media only screen and (min-width: 1200px) {
+    .img-hover-zoom--colorize img {
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .h1,
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+
+.my-2.text-center h1 {
+    font-size: 2em;
+    font-family: 'OpenSans';
+}

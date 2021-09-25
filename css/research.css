@@ -2,15 +2,15 @@
     background-image: url("../assets/img/researchBack.jpg");
     height: 44vh;
     background-size: contain;
-    background-color: #002050;
+    background-color: #9e9e9e;
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #00aeef;
-    font-family: 'OpenSans-Bold';
+    color: #eeeeee;
+    font-family: 'Poppins-Bold', serif;
     font-size: 4em;
     background-attachment: fixed;
 }
