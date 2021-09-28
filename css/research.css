@@ -1,7 +1,7 @@
 .header {
     background-image: url("../assets/img/researchBack.jpg");
     height: 44vh;
-    background-size: contain;
+    background-size: cover;
     background-color: #9e9e9e;
     background-repeat: no-repeat;
     background-position: center;
