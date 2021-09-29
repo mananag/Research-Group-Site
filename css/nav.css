@@ -3,6 +3,7 @@ body{
     font-family: OpenSans, serif;
     width: 100vw;
     overflow-x: hidden;
+    text-align: justify;
 }
 .navContainer{
     position: sticky;

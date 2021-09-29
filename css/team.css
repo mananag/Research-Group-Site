@@ -66,13 +66,13 @@
     justify-content: center;
 }
 
-.fab {
+.fa {
     font-size: 1.5rem;
     color: darkgray;
     transition: transform .5s;
 }
 
-.fab:hover {
+.fa:hover {
     color: black;
     transform: scale(1.1);
 }
